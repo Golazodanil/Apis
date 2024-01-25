@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+
+input{
+    background-color: rgb(105, 105, 105);
+    
+}
+
+.search{
+    margin-top: 15em;
+    width: 70%;
+    border-radius: 6px;
+    border: 2px solid rgb(243, 232, 131);
+    height: 24px;
+    padding: 12px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.search:focus{
+    background-color: rgb(243, 232, 131);
+    transition: 1200ms;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(36, 36, 36);
+}
